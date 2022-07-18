@@ -1,3 +1,3 @@
 # JS-Project
 
-Link to website - 
+Link to website - https://gloriammuthumbi.github.io/JS-Project/
