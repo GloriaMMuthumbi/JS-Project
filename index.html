@@ -4,9 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript" src="myscript.js"></script>
+    <link rel="stylesheet" href="mycss.css">
+   
     <title>The Game</title>
 </head>
-<body onload="game()">
+<body>
+    <h2>Rock, Paper, Scissors</h2>
+    <h3>You VS Computer</h3>
+    <div class="movesleft">Moves Left: 5</div>
+    <div class="turn"></div>
+    <section class="scores">
+        <div class="computer">
+            <p>COMPUTER SCORE:</p> <span id="computerscore">0</span>
+        </div>
+        <div class="player">
+            <p>YOUR SCORE:</p> <span id="playerscore">0</span>
+        </div>
+    </section>
+    <div class="winner">
+        <h4 id="winner-text"></h4>
+    </div>
+    <div class="buttons">
+        <button class="button rock" id="rock-btn">rock<img src="images/rock.png"></button>
+        <button class="button paper" id="paper-btn">paper<img src="images/paper.png"></button>
+        <button class="button scissors" id="scissors-btn">scissors<img src="images/scissors.png"></button>
+    </div>
+
+    <script type="text/javascript" src="myscript.js"></script>
 </body>
 </html>
